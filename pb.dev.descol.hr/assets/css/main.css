@@ -675,6 +675,18 @@ body:has(.sticky) .sticky-lg-top {
   width: 59px;
   height: 59px;
 }
+@media only screen and (max-width: 991px) {
+  .tj-primary-btn {
+    font-size: 12px;
+    padding: 4px 4px 4px 4px;
+    gap: 8px;
+  }
+  .tj-primary-btn .btn-icon {
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+  }
+}
 
 .text-btn {
   display: -webkit-inline-box;
